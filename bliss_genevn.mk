@@ -25,6 +25,7 @@ $(call inherit-product, device/motorola/genevn/device.mk)
 # foss / microg apps
 #$(call inherit-product-if-exists, vendor/foss/foss.mk)
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+BUILD_BROKEN_SRC_DIR_IS_WRITABLE := true 
 
 #  Gapps Pkg
 #TARGET_GAPPS_VARIANT := pico
